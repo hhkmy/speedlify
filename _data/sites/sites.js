@@ -1,10 +1,11 @@
 module.exports = {
-  name: "ksvblog.site", // optional, falls back to object key
-  description: "K's V/Blog Sites",
+  name: "sites",
+  description: "Hein Htet Kyaw's V/Blog",
   // skip if localhost
   // skip if this is a new fork of the speedlify (not Zach’s)
+  skip: !process.env.CONTEXT || process.env.SITE_NAME !== "ksvspeedlify",
   options: {
-    frequency: 60 * 23, // 23 hours
+    frequency: 60 * 11 + 30, // 11h, 30m
     // Use "run" if the sites don’t share assets on the same origin
     //           and we can reset chrome with each run instead of
     //           each site in every run (it’s faster)
@@ -12,6 +13,9 @@ module.exports = {
     freshChrome: "site",
   },
   urls: [
+    "https://hhk.my.id/",
+    "https://speedlify.hhk.my.id/",
+    "https://stats.hhk.my.id/",
     "https://www.ksvblog.site",
     "https://ksvblog.pages.dev",
     "https://ksvblog.netlify.app",
