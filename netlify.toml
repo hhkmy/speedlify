@@ -12,9 +12,9 @@ Access-Control-Allow-Origin = "*"
 
 [[redirects]]
 force = true
-from = "https://ksvspeedlify.netlify.app"
+from = "https://hhkspeedlify.netlify.app"
 status = 301
-to = "https://ksvspeedlify.hhk.my.id"
+to = "https://speedlify.hhk.my.id"
 
 [context.branch-deploy.environment]
 PUPPETEER_CACHE_DIR = "/opt/build/repo/node_modules/.cache/puppeteer-bin/"
