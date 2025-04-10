@@ -16,9 +16,7 @@ module.exports = {
     "https://hhk.my.id/",
     "https://speedlify.hhk.my.id/",
     "https://stats.hhk.my.id/",
-    "https://www.ksvblog.site",
     "https://ksvblog.pages.dev",
     "https://ksvblog.netlify.app",
-    "https://ksvblog.github.io",
   ],
 };
