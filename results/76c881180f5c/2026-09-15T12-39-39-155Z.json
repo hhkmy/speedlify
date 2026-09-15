@@ -1,0 +1,197 @@
+{
+  "url": "https://hhk.my.id/books",
+  "name": "Books",
+  "group": "pages",
+  "groupName": "Pages",
+  "timestamp": 1789475979155,
+  "date": "2026-09-15T12:39:39.155Z",
+  "runId": "2026-09-15T12-39-16-267Z",
+  "formFactor": "mobile",
+  "requestedRuns": 1,
+  "completedRuns": 1,
+  "durationMs": 8622,
+  "error": null,
+  "variance": null,
+  "lab": {
+    "requestedUrl": "https://hhk.my.id/books",
+    "finalUrl": "https://hhk.my.id/books/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1435,
+      "lcp": 2035,
+      "si": 1435,
+      "tbt": 21,
+      "tti": 2471,
+      "cls": 0.001,
+      "ttfb": 478,
+      "maxPotentialFid": 91,
+      "serverResponseTime": 94,
+      "networkRtt": 0,
+      "networkServerLatency": 28.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 113.7,
+      "elementRenderDelay": 67
+    },
+    "weight": {
+      "total": 1084003,
+      "requests": 15,
+      "mainDocument": 25985,
+      "byType": {
+        "total": {
+          "bytes": 1080998,
+          "requests": 14
+        },
+        "image": {
+          "bytes": 907275,
+          "requests": 4
+        },
+        "font": {
+          "bytes": 77802,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 37530,
+          "requests": 3
+        },
+        "stylesheet": {
+          "bytes": 29722,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 25985,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 2684,
+          "requests": 4
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 3,
+      "stylesheets": 1,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 415.4,
+      "byGroup": {
+        "scriptEvaluation": 173.2,
+        "other": 133.9,
+        "styleLayout": 61.7,
+        "parseHTML": 18.6,
+        "paintCompositeRender": 17.6,
+        "scriptParseCompile": 10.3
+      },
+      "bootupMs": 122.7,
+      "longTasks": 1,
+      "longestTaskMs": 91
+    },
+    "dom": {
+      "elements": 366,
+      "depth": 11,
+      "maxChildren": 16
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 327,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 1393.2,
+      "poorlyCachedCount": 1
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 22,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 17,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 778.2,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 32
+    },
+    "environment": {
+      "lighthouseVersion": "13.4.1",
+      "benchmarkIndex": 3015.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-09-15T12:39:40.394Z",
+      "runtimeMs": 6690.5
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a3b7b2341bc1f7cd-LAX",
+      "server": "cloudflare"
+    },
+    "violations": 0,
+    "passes": 344,
+    "incomplete": 0,
+    "violationRules": 0,
+    "version": "4.13.0",
+    "top": [],
+    "error": null
+  },
+  "consecutiveFailures": 0
+}
