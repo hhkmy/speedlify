@@ -1,0 +1,231 @@
+{
+  "url": "https://hhk.my.id/shop",
+  "name": "Shop",
+  "group": "pages",
+  "groupName": "Pages",
+  "timestamp": 1789472760279,
+  "date": "2026-09-15T11:46:00.279Z",
+  "runId": "2026-09-15T11-45-40-928Z",
+  "formFactor": "mobile",
+  "requestedRuns": 1,
+  "completedRuns": 1,
+  "durationMs": 10779,
+  "error": null,
+  "variance": null,
+  "lab": {
+    "requestedUrl": "https://hhk.my.id/shop",
+    "finalUrl": "https://hhk.my.id/shop/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 96,
+      "accessibility": 95,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1556,
+      "lcp": 2606,
+      "si": 1556,
+      "tbt": 74,
+      "tti": 2606,
+      "cls": 0.001,
+      "ttfb": 519,
+      "maxPotentialFid": 114,
+      "serverResponseTime": 218,
+      "networkRtt": 0.9,
+      "networkServerLatency": 68.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 350.4,
+      "elementRenderDelay": 153.8
+    },
+    "weight": {
+      "total": 188841,
+      "requests": 14,
+      "mainDocument": 25029,
+      "byType": {
+        "total": {
+          "bytes": 185914,
+          "requests": 13
+        },
+        "font": {
+          "bytes": 77798,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 47750,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 29720,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 25029,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 3484,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 2133,
+          "requests": 5
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 10248,
+          "requests": 3
+        }
+      },
+      "scripts": 4,
+      "stylesheets": 1,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 10248,
+      "mainThreadMs": 9.2,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 10212,
+          "mainThreadMs": 9.2,
+          "byType": {
+            "script": 10212
+          },
+          "typedBytes": 10212
+        },
+        {
+          "entity": "cloudflareinsights.com",
+          "bytes": 36,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 36
+          },
+          "typedBytes": 36
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 967,
+      "byGroup": {
+        "other": 308,
+        "scriptEvaluation": 264.9,
+        "styleLayout": 229.6,
+        "paintCompositeRender": 92.3,
+        "garbageCollection": 30.1,
+        "parseHTML": 22.8,
+        "scriptParseCompile": 19.3
+      },
+      "bootupMs": 161.6,
+      "longTasks": 3,
+      "longestTaskMs": 114
+    },
+    "dom": {
+      "elements": 833,
+      "depth": 13,
+      "maxChildren": 16
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10708,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 373,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 5478.400000000001,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 22,
+      "failingNodes": 5,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 5
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 17,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 818.6,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 39
+    },
+    "environment": {
+      "lighthouseVersion": "13.4.1",
+      "benchmarkIndex": 2675.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-09-15T11:46:01.593Z",
+      "runtimeMs": 7859.5
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a3b763a65e344c97-MSP",
+      "server": "cloudflare"
+    },
+    "violations": 5,
+    "passes": 1202,
+    "incomplete": 52,
+    "violationRules": 1,
+    "version": "4.13.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 5,
+        "help": "Elements must meet minimum color contrast ratio thresholds"
+      }
+    ],
+    "error": null
+  },
+  "consecutiveFailures": 0
+}
