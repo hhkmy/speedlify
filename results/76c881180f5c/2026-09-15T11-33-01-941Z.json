@@ -1,0 +1,223 @@
+{
+  "url": "https://hhk.my.id/books",
+  "name": "Books",
+  "group": "pages",
+  "groupName": "Pages",
+  "timestamp": 1789471981941,
+  "date": "2026-09-15T11:33:01.941Z",
+  "runId": "2026-09-15T11-32-41-402Z",
+  "formFactor": "mobile",
+  "requestedRuns": 1,
+  "completedRuns": 1,
+  "durationMs": 9013,
+  "error": null,
+  "variance": null,
+  "lab": {
+    "requestedUrl": "https://hhk.my.id/books",
+    "finalUrl": "https://hhk.my.id/books/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 95,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1215,
+      "lcp": 2115,
+      "si": 1215,
+      "tbt": 0,
+      "tti": 2115,
+      "cls": 0.001,
+      "ttfb": 465,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 179,
+      "networkRtt": 0.9,
+      "networkServerLatency": 14.7
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 192,
+      "elementRenderDelay": 72
+    },
+    "weight": {
+      "total": 1093774,
+      "requests": 18,
+      "mainDocument": 25932,
+      "byType": {
+        "total": {
+          "bytes": 1090849,
+          "requests": 17
+        },
+        "image": {
+          "bytes": 907347,
+          "requests": 4
+        },
+        "font": {
+          "bytes": 77794,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 47696,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 29665,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 25932,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 2415,
+          "requests": 6
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 10248,
+          "requests": 3
+        }
+      },
+      "scripts": 4,
+      "stylesheets": 1,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 10248,
+      "mainThreadMs": 10.3,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 10212,
+          "mainThreadMs": 10.2,
+          "byType": {
+            "script": 10212
+          },
+          "typedBytes": 10212
+        },
+        {
+          "entity": "cloudflareinsights.com",
+          "bytes": 36,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "other": 36
+          },
+          "typedBytes": 36
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 436.3,
+      "byGroup": {
+        "other": 153.8,
+        "scriptEvaluation": 127.3,
+        "styleLayout": 90.3,
+        "parseHTML": 26.2,
+        "paintCompositeRender": 20.1,
+        "scriptParseCompile": 18.6
+      },
+      "bootupMs": 22.4,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 366,
+      "depth": 11,
+      "maxChildren": 16
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10708,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 316,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 5469.6,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 22,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 17,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 764.7,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 35
+    },
+    "environment": {
+      "lighthouseVersion": "13.4.1",
+      "benchmarkIndex": 2489.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-09-15T11:33:03.276Z",
+      "runtimeMs": 6727.2
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a3b7509f1fb6c090-SJC",
+      "server": "cloudflare"
+    },
+    "violations": 0,
+    "passes": 344,
+    "incomplete": 0,
+    "violationRules": 0,
+    "version": "4.13.0",
+    "top": [],
+    "error": null
+  },
+  "consecutiveFailures": 0
+}
