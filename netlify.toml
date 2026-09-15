@@ -1,9 +1,6 @@
 [build]
-command = "npm run build-production"
+command = "npm run build"
 publish = "_site"
-
-[[plugins]]
-package = "./plugins/keep-data-cache"
 
 [[headers]]
 for = "/api/*"
@@ -12,15 +9,6 @@ Access-Control-Allow-Origin = "*"
 
 [[redirects]]
 force = true
-from = "https://hhkspeedlify.netlify.app"
+from = "https://hhkspeedlify.netlify.app/*"
 status = 301
-to = "https://speedlify.hhk.my.id"
-
-[context.branch-deploy.environment]
-PUPPETEER_CACHE_DIR = "/opt/build/repo/node_modules/.cache/puppeteer-bin/"
-
-[context.deploy-preview.environment]
-PUPPETEER_CACHE_DIR = "/opt/build/repo/node_modules/.cache/puppeteer-bin/"
-
-[context.production.environment]
-PUPPETEER_CACHE_DIR = "/opt/build/repo/node_modules/.cache/puppeteer-bin/"
+to = "https://speedlify.hhk.my.id/:splat"

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "url": "https://hhk.my.id/about",
+  "updated": "2026-09-15T01:13:44.136Z",
+  "points": [
+    {
+      "t": 1789434800928,
+      "performance": 76,
+      "accessibility": 95,
+      "best-practices": 100,
+      "seo": 100,
+      "lcp": 2957,
+      "cls": 0.013,
+      "tbt": 345,
+      "fcp": 2957,
+      "si": 6615,
+      "ttfb": 2196,
+      "total": 283554,
+      "requests": 16,
+      "bytes": 11552,
+      "mainThreadMs": 15.4,
+      "unusedJsBytes": 59301,
+      "unusedCssBytes": 0,
+      "mainThreadTotal": 2310.2,
+      "longTasks": 6,
+      "elements": 997,
+      "failingCount": 1,
+      "failingNodes": 1,
+      "axeViolations": 1,
+      "axePasses": 613,
+      "bench": 1699,
+      "runs": 1,
+      "reqRuns": 1,
+      "ms": 23202
+    }
+  ]
+}

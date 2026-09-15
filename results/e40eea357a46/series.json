@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "url": "https://hhk.my.id/shop",
+  "updated": "2026-09-15T01:15:30.007Z",
+  "points": [
+    {
+      "t": 1789434906604,
+      "performance": 84,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 100,
+      "lcp": 1721,
+      "cls": 0.009,
+      "tbt": 486,
+      "fcp": 1721,
+      "si": 4126,
+      "ttfb": 1103,
+      "total": 237546,
+      "requests": 17,
+      "bytes": 11192,
+      "mainThreadMs": 12,
+      "unusedJsBytes": 58501,
+      "unusedCssBytes": 0,
+      "mainThreadTotal": 3834.8,
+      "longTasks": 8,
+      "elements": 844,
+      "failingCount": 1,
+      "failingNodes": 5,
+      "axeViolations": 5,
+      "axePasses": 1214,
+      "bench": 1480.5,
+      "runs": 1,
+      "reqRuns": 1,
+      "ms": 23398
+    }
+  ]
+}

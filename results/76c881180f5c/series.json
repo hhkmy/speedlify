@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "url": "https://hhk.my.id/books",
+  "updated": "2026-09-15T01:14:48.502Z",
+  "points": [
+    {
+      "t": 1789434869737,
+      "performance": 97,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "lcp": 1744,
+      "cls": 0.009,
+      "tbt": 75,
+      "fcp": 1744,
+      "si": 3754,
+      "ttfb": 1144,
+      "total": 1140519,
+      "requests": 20,
+      "bytes": 11214,
+      "mainThreadMs": 11.2,
+      "unusedJsBytes": 59312,
+      "unusedCssBytes": 0,
+      "mainThreadTotal": 1927.6,
+      "longTasks": 3,
+      "elements": 377,
+      "failingCount": 0,
+      "failingNodes": 0,
+      "axeViolations": 0,
+      "axePasses": 346,
+      "bench": 1420.5,
+      "runs": 1,
+      "reqRuns": 1,
+      "ms": 18764
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "url": "https://hhk.my.id/projects",
+  "updated": "2026-09-15T01:15:06.603Z",
+  "points": [
+    {
+      "t": 1789434888503,
+      "performance": 98,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "lcp": 1579,
+      "cls": 0.035,
+      "tbt": 55,
+      "fcp": 1579,
+      "si": 3444,
+      "ttfb": 979,
+      "total": 234166,
+      "requests": 16,
+      "bytes": 11213,
+      "mainThreadMs": 11,
+      "unusedJsBytes": 59312,
+      "unusedCssBytes": 0,
+      "mainThreadTotal": 1394.8,
+      "longTasks": 3,
+      "elements": 466,
+      "failingCount": 0,
+      "failingNodes": 0,
+      "axeViolations": 0,
+      "axePasses": 569,
+      "bench": 1577,
+      "runs": 1,
+      "reqRuns": 1,
+      "ms": 18099
+    }
+  ]
+}
