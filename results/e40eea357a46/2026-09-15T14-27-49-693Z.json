@@ -1,0 +1,212 @@
+{
+  "url": "https://hhk.my.id/shop",
+  "name": "Shop",
+  "group": "pages",
+  "groupName": "Pages",
+  "timestamp": 1789482469693,
+  "date": "2026-09-15T14:27:49.693Z",
+  "runId": "2026-09-15T14-27-36-795Z",
+  "formFactor": "mobile",
+  "requestedRuns": 1,
+  "completedRuns": 1,
+  "durationMs": 8933,
+  "error": null,
+  "variance": null,
+  "lab": {
+    "requestedUrl": "https://hhk.my.id/shop",
+    "finalUrl": "https://hhk.my.id/shop/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 97,
+      "accessibility": 95,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1597,
+      "lcp": 2497,
+      "si": 1597,
+      "tbt": 0,
+      "tti": 2497,
+      "cls": 0.001,
+      "ttfb": 482,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 215,
+      "networkRtt": 0,
+      "networkServerLatency": 32.4
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 237.2,
+      "elementRenderDelay": 123.6
+    },
+    "weight": {
+      "total": 155166,
+      "requests": 10,
+      "mainDocument": 25180,
+      "byType": {
+        "total": {
+          "bytes": 152175,
+          "requests": 9
+        },
+        "font": {
+          "bytes": 77795,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 29625,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 25180,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 14045,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 3452,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 2078,
+          "requests": 3
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 2,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 459.6,
+      "byGroup": {
+        "other": 187.9,
+        "styleLayout": 121.3,
+        "scriptEvaluation": 77.5,
+        "paintCompositeRender": 40.2,
+        "parseHTML": 21,
+        "garbageCollection": 6.2,
+        "scriptParseCompile": 5.5
+      },
+      "bootupMs": 14.2,
+      "longTasks": 1,
+      "longestTaskMs": 63
+    },
+    "dom": {
+      "elements": 833,
+      "depth": 13,
+      "maxChildren": 16
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 482,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 22,
+      "failingNodes": 5,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 5
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 17,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 782.4,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 34
+    },
+    "environment": {
+      "lighthouseVersion": "13.4.1",
+      "benchmarkIndex": 3742,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-09-15T14:27:50.890Z",
+      "runtimeMs": 6510.8
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a3b850a98ba1f7b3-LAX",
+      "server": "cloudflare"
+    },
+    "violations": 5,
+    "passes": 1202,
+    "incomplete": 52,
+    "violationRules": 1,
+    "version": "4.13.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 5,
+        "help": "Elements must meet minimum color contrast ratio thresholds"
+      }
+    ],
+    "error": null
+  },
+  "consecutiveFailures": 0
+}
