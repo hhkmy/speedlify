@@ -1,38 +1,4 @@
-{
-  "version": 1,
-  "url": "https://speedlify.hhk.my.id/",
-  "updated": "2026-09-15T01:47:31.980Z",
-  "points": [
-    {
-      "t": 1789436834827,
-      "gen": "Eleventy v2.0.1",
-      "performance": 97,
-      "accessibility": 100,
-      "best-practices": 96,
-      "seo": 100,
-      "lcp": 1814,
-      "cls": 0,
-      "tbt": 0,
-      "fcp": 1814,
-      "si": 3914,
-      "ttfb": 1623,
-      "total": 53979,
-      "requests": 6,
-      "bytes": 0,
-      "mainThreadMs": 0,
-      "unusedJsBytes": 21223,
-      "unusedCssBytes": 0,
-      "mainThreadTotal": 312,
-      "longTasks": 1,
-      "elements": 29,
-      "failingCount": 0,
-      "failingNodes": 0,
-      "axeViolations": 0,
-      "axePasses": 57,
-      "bench": 1693,
-      "runs": 1,
-      "reqRuns": 1,
-      "ms": 17151
-    }
-  ]
-}
+{"version":1,"url":"https://speedlify.hhk.my.id/","updated":"2026-09-15T03:17:04.164Z","points":[
+{"t":1789436834827,"gen":"Eleventy v2.0.1","performance":97,"accessibility":100,"best-practices":96,"seo":100,"lcp":1814,"cls":0,"tbt":0,"fcp":1814,"si":3914,"ttfb":1623,"total":53979,"requests":6,"bytes":0,"mainThreadMs":0,"unusedJsBytes":21223,"unusedCssBytes":0,"mainThreadTotal":312,"longTasks":1,"elements":29,"failingCount":0,"failingNodes":0,"axeViolations":0,"axePasses":57,"bench":1693,"runs":1,"reqRuns":1,"ms":17151},
+{"t":1789442212274,"gen":"Eleventy (Build Awesome) v4.0.0","performance":99,"accessibility":100,"best-practices":100,"seo":100,"lcp":1486,"cls":0,"tbt":108,"fcp":1405,"si":1405,"ttfb":720,"total":29635,"requests":4,"bytes":0,"mainThreadMs":0,"unusedJsBytes":0,"unusedCssBytes":0,"mainThreadTotal":1227.5,"longTasks":7,"elements":491,"failingCount":0,"failingNodes":0,"axeViolations":1,"axePasses":913,"bench":1955,"runs":1,"reqRuns":1,"ms":11885}
+]}
