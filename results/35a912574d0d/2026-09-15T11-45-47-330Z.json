@@ -1,0 +1,225 @@
+{
+  "url": "https://hhk.my.id/",
+  "name": "Home",
+  "group": "pages",
+  "groupName": "Pages",
+  "timestamp": 1789472747330,
+  "date": "2026-09-15T11:45:47.330Z",
+  "runId": "2026-09-15T11-45-40-783Z",
+  "formFactor": "mobile",
+  "requestedRuns": 1,
+  "completedRuns": 1,
+  "durationMs": 15853,
+  "error": null,
+  "variance": null,
+  "lab": {
+    "requestedUrl": "https://hhk.my.id/",
+    "finalUrl": "https://hhk.my.id/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 80,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1438,
+      "lcp": 2444,
+      "si": 1488,
+      "tbt": 700,
+      "tti": 2727,
+      "cls": 0.001,
+      "ttfb": 498,
+      "maxPotentialFid": 344,
+      "serverResponseTime": 62,
+      "networkRtt": 21.1,
+      "networkServerLatency": 47.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 172.2,
+      "elementRenderDelay": 364.8
+    },
+    "weight": {
+      "total": 188368,
+      "requests": 13,
+      "mainDocument": 25151,
+      "byType": {
+        "total": {
+          "bytes": 185447,
+          "requests": 12
+        },
+        "font": {
+          "bytes": 77799,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 47802,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 29644,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 25151,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 3465,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1586,
+          "requests": 4
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 10373,
+          "requests": 3
+        }
+      },
+      "scripts": 4,
+      "stylesheets": 1,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 2,
+      "bytes": 10373,
+      "mainThreadMs": 20.9,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 10338,
+          "mainThreadMs": 20.8,
+          "byType": {
+            "script": 10338
+          },
+          "typedBytes": 10338
+        },
+        {
+          "entity": "cloudflareinsights.com",
+          "bytes": 35,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "other": 35
+          },
+          "typedBytes": 35
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1982.3,
+      "byGroup": {
+        "scriptEvaluation": 726.7,
+        "other": 685.4,
+        "styleLayout": 341.5,
+        "parseHTML": 192.9,
+        "paintCompositeRender": 20.1,
+        "scriptParseCompile": 15.7
+      },
+      "bootupMs": 670.5,
+      "longTasks": 6,
+      "longestTaskMs": 344
+    },
+    "dom": {
+      "elements": 396,
+      "depth": 11,
+      "maxChildren": 16
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10840,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 395,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 5521.2,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 21,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 17,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 34
+    },
+    "environment": {
+      "lighthouseVersion": "13.4.1",
+      "benchmarkIndex": 2215.5,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-09-15T11:45:50.914Z",
+      "runtimeMs": 10014.7
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "hugo",
+      "name": "Hugo",
+      "icon": "Hugo",
+      "version": "0.166.0",
+      "source": "meta",
+      "raw": "Hugo 0.166.0"
+    },
+    "probe": {
+      "metas": [
+        "Hugo 0.166.0"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a3b76364086fd0c2-DFW",
+      "server": "cloudflare"
+    },
+    "violations": 0,
+    "passes": 425,
+    "incomplete": 0,
+    "violationRules": 0,
+    "version": "4.13.0",
+    "top": [],
+    "error": null
+  },
+  "consecutiveFailures": 0
+}
