@@ -1,38 +1,4 @@
-{
-  "version": 1,
-  "url": "https://hhk.my.id/",
-  "updated": "2026-09-15T01:11:05.672Z",
-  "points": [
-    {
-      "t": 1789434639275,
-      "gen": "Hugo 0.166.0",
-      "performance": 80,
-      "accessibility": 100,
-      "best-practices": 100,
-      "seo": 100,
-      "lcp": 3363,
-      "cls": 0.001,
-      "tbt": 182,
-      "fcp": 2871,
-      "si": 5820,
-      "ttfb": 1623,
-      "total": 237573,
-      "requests": 16,
-      "bytes": 11555,
-      "mainThreadMs": 37,
-      "unusedJsBytes": 59208,
-      "unusedCssBytes": 0,
-      "mainThreadTotal": 2432.8,
-      "longTasks": 7,
-      "elements": 407,
-      "failingCount": 0,
-      "failingNodes": 0,
-      "axeViolations": 0,
-      "axePasses": 445,
-      "bench": 1572.5,
-      "runs": 1,
-      "reqRuns": 1,
-      "ms": 26394
-    }
-  ]
-}
+{"version":1,"url":"https://hhk.my.id/","updated":"2026-09-15T03:17:02.128Z","points":[
+{"t":1789434639275,"gen":"Hugo 0.166.0","performance":80,"accessibility":100,"best-practices":100,"seo":100,"lcp":3363,"cls":0.001,"tbt":182,"fcp":2871,"si":5820,"ttfb":1623,"total":237573,"requests":16,"bytes":11555,"mainThreadMs":37,"unusedJsBytes":59208,"unusedCssBytes":0,"mainThreadTotal":2432.8,"longTasks":7,"elements":407,"failingCount":0,"failingNodes":0,"axeViolations":0,"axePasses":445,"bench":1572.5,"runs":1,"reqRuns":1,"ms":26394},
+{"t":1789442207703,"gen":"Hugo 0.166.0","performance":74,"accessibility":100,"best-practices":92,"seo":100,"lcp":3522,"cls":0,"tbt":652,"fcp":1321,"si":2074,"ttfb":483,"total":244099,"requests":16,"bytes":12550,"mainThreadMs":20.9,"unusedJsBytes":59612,"unusedCssBytes":0,"mainThreadTotal":2402.3,"longTasks":7,"elements":380,"failingCount":0,"failingNodes":0,"axeViolations":0,"axePasses":490,"bench":2060,"runs":1,"reqRuns":1,"ms":14422}
+]}
