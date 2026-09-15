@@ -1,0 +1,233 @@
+{
+  "url": "https://hhk.my.id/books",
+  "name": "Books",
+  "group": "pages",
+  "groupName": "Pages",
+  "timestamp": 1789445392437,
+  "date": "2026-09-15T04:09:52.437Z",
+  "runId": "2026-09-15T04-09-31-561Z",
+  "formFactor": "mobile",
+  "requestedRuns": 1,
+  "completedRuns": 1,
+  "durationMs": 8161,
+  "error": null,
+  "variance": null,
+  "lab": {
+    "requestedUrl": "https://hhk.my.id/books",
+    "finalUrl": "https://hhk.my.id/books/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 95,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1456,
+      "lcp": 2806,
+      "si": 1632,
+      "tbt": 17,
+      "tti": 3450,
+      "cls": 0.001,
+      "ttfb": 485,
+      "maxPotentialFid": 84,
+      "serverResponseTime": 177,
+      "networkRtt": 0.9,
+      "networkServerLatency": 49.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 207.8,
+      "elementRenderDelay": 118.4
+    },
+    "weight": {
+      "total": 1148702,
+      "requests": 21,
+      "mainDocument": 25723,
+      "byType": {
+        "total": {
+          "bytes": 1145703,
+          "requests": 20
+        },
+        "image": {
+          "bytes": 909436,
+          "requests": 5
+        },
+        "script": {
+          "bytes": 98794,
+          "requests": 4
+        },
+        "font": {
+          "bytes": 77802,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 29735,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 25723,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 4213,
+          "requests": 8
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 12412,
+          "requests": 4
+        }
+      },
+      "scripts": 4,
+      "stylesheets": 1,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 3,
+      "bytes": 12412,
+      "mainThreadMs": 6.5,
+      "top": [
+        {
+          "entity": "Cloudflare",
+          "bytes": 10202,
+          "mainThreadMs": 6.5,
+          "byType": {
+            "script": 10202
+          },
+          "typedBytes": 10202
+        },
+        {
+          "entity": "flagcdn.com",
+          "bytes": 2174,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 2174
+          },
+          "typedBytes": 2174
+        },
+        {
+          "entity": "cloudflareinsights.com",
+          "bytes": 36,
+          "mainThreadMs": 0,
+          "byType": {
+            "other": 36
+          },
+          "typedBytes": 36
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 665.9,
+      "byGroup": {
+        "scriptEvaluation": 263.5,
+        "other": 221.8,
+        "styleLayout": 103.4,
+        "paintCompositeRender": 28.6,
+        "scriptParseCompile": 26.2,
+        "parseHTML": 16.7,
+        "garbageCollection": 5.6
+      },
+      "bootupMs": 208.9,
+      "longTasks": 1,
+      "longestTaskMs": 84
+    },
+    "dom": {
+      "elements": 366,
+      "depth": 11,
+      "maxChildren": 16
+    },
+    "waste": {
+      "unusedJsBytes": 59396,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10697,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 338,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 5476,
+      "poorlyCachedCount": 2
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 23,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 17,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 785.5,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 37
+    },
+    "environment": {
+      "lighthouseVersion": "13.4.1",
+      "benchmarkIndex": 2922,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-09-15T04:09:53.672Z",
+      "runtimeMs": 6646.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a3b4c771f84bba62-SJC",
+      "server": "cloudflare"
+    },
+    "violations": 0,
+    "passes": 364,
+    "incomplete": 0,
+    "violationRules": 0,
+    "version": "4.13.0",
+    "top": [],
+    "error": null
+  },
+  "consecutiveFailures": 0
+}
