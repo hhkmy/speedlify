@@ -39,6 +39,7 @@ export default {
 			enabled: true,
 			description: "Performance metrics for subdomains and related platforms.",
 			sites: [
+				{ name: "Home", url: "https://hhk.my.id/" },
 				{ name: "Netlify Mirror", url: "https://netlify.hhk.my.id/" },
 				{ name: "Speedlify", url: "https://speedlify.hhk.my.id/" },
 				{ name: "Stats", url: "https://stats.hhk.my.id/" },
