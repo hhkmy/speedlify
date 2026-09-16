@@ -1,0 +1,214 @@
+{
+  "url": "https://netlify.hhk.my.id/",
+  "name": "Netlify Mirror",
+  "group": "services",
+  "groupName": "Services",
+  "timestamp": 1789542079463,
+  "date": "2026-09-16T07:01:19.463Z",
+  "runId": "2026-09-16T07-00-37-207Z",
+  "formFactor": "mobile",
+  "requestedRuns": 1,
+  "completedRuns": 1,
+  "durationMs": 9614,
+  "error": null,
+  "variance": null,
+  "lab": {
+    "requestedUrl": "https://netlify.hhk.my.id/",
+    "finalUrl": "https://netlify.hhk.my.id/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best-practices": 96,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1068,
+      "lcp": 1968,
+      "si": 1138,
+      "tbt": 0,
+      "tti": 1968,
+      "cls": 0.001,
+      "ttfb": 459,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 211,
+      "networkRtt": 9.2,
+      "networkServerLatency": 9.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 416.3,
+      "elementRenderDelay": 78.9
+    },
+    "weight": {
+      "total": 169092,
+      "requests": 9,
+      "mainDocument": 24591,
+      "byType": {
+        "total": {
+          "bytes": 166329,
+          "requests": 8
+        },
+        "font": {
+          "bytes": 77836,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 24650,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 24591,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 23220,
+          "requests": 3
+        },
+        "script": {
+          "bytes": 13026,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 3006,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 1,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 287.9,
+      "byGroup": {
+        "other": 115.4,
+        "styleLayout": 71.4,
+        "scriptEvaluation": 52.9,
+        "parseHTML": 22.6,
+        "paintCompositeRender": 18.9,
+        "scriptParseCompile": 6.8
+      },
+      "bootupMs": 19.2,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 398,
+      "depth": 11,
+      "maxChildren": 16
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 159,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 21,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 17,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 2
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 2,
+      "baselineLimitedFeatures": 30
+    },
+    "environment": {
+      "lighthouseVersion": "13.4.1",
+      "benchmarkIndex": 2482,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-09-16T07:01:20.775Z",
+      "runtimeMs": 7318.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "hugo",
+      "name": "Hugo",
+      "icon": "Hugo",
+      "version": "0.166.0",
+      "source": "meta",
+      "raw": "Hugo 0.166.0"
+    },
+    "probe": {
+      "metas": [
+        "Hugo 0.166.0"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "cf-ray": "a3bdffff8d6115a8-SJC",
+      "server": "cloudflare",
+      "x-nf-request-id": "01M2MGAEXXRZFHJ74WM6XD5RTP"
+    },
+    "violations": 0,
+    "passes": 471,
+    "incomplete": 0,
+    "violationRules": 0,
+    "version": "4.13.0",
+    "top": [],
+    "error": null
+  },
+  "consecutiveFailures": 0
+}
