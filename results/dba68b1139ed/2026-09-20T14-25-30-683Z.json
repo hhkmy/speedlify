@@ -1,0 +1,207 @@
+{
+  "url": "https://netlify.hhk.my.id/",
+  "name": "Netlify Mirror",
+  "group": "services",
+  "groupName": "Services",
+  "timestamp": 1789914330683,
+  "date": "2026-09-20T14:25:30.683Z",
+  "runId": "2026-09-20T14-24-40-752Z",
+  "formFactor": "mobile",
+  "requestedRuns": 1,
+  "completedRuns": 1,
+  "durationMs": 10204,
+  "error": null,
+  "variance": null,
+  "lab": {
+    "requestedUrl": "https://netlify.hhk.my.id/",
+    "finalUrl": "https://netlify.hhk.my.id/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 96,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1582,
+      "lcp": 2632,
+      "si": 2504,
+      "tbt": 3,
+      "tti": 2632,
+      "cls": 0,
+      "ttfb": 716,
+      "maxPotentialFid": 53,
+      "serverResponseTime": 90,
+      "networkRtt": 8.7,
+      "networkServerLatency": 266.1
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 167,
+      "elementRenderDelay": 1159.7
+    },
+    "weight": {
+      "total": 147821,
+      "requests": 8,
+      "mainDocument": 24286,
+      "byType": {
+        "total": {
+          "bytes": 145020,
+          "requests": 7
+        },
+        "font": {
+          "bytes": 77881,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 24917,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 24286,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 13117,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 3032,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 1787,
+          "requests": 2
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 1,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 253.8,
+      "byGroup": {
+        "other": 116.7,
+        "styleLayout": 64.6,
+        "scriptEvaluation": 33.7,
+        "parseHTML": 18.7,
+        "paintCompositeRender": 13,
+        "scriptParseCompile": 7.1
+      },
+      "bootupMs": 16.5,
+      "longTasks": 1,
+      "longestTaskMs": 53
+    },
+    "dom": {
+      "elements": 396,
+      "depth": 11,
+      "maxChildren": 16
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 416,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 21,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 17,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 28
+    },
+    "environment": {
+      "lighthouseVersion": "13.4.1",
+      "benchmarkIndex": 2497,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-09-20T14:25:31.999Z",
+      "runtimeMs": 7935.4
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "hugo",
+      "name": "Hugo",
+      "icon": "Hugo",
+      "version": "0.166.0",
+      "source": "meta",
+      "raw": "Hugo 0.166.0"
+    },
+    "probe": {
+      "metas": [
+        "Hugo 0.166.0"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "netlify",
+      "name": "Netlify",
+      "icon": "Netlify",
+      "source": "x-nf-request-id"
+    },
+    "headers": {
+      "cf-ray": "a3e1802e2c1b545f-SJC",
+      "server": "cloudflare",
+      "x-nf-request-id": "01M2ZKAP6VD906DMF11HGRFRYY"
+    },
+    "violations": 0,
+    "passes": 469,
+    "incomplete": 0,
+    "violationRules": 0,
+    "version": "4.13.0",
+    "top": [],
+    "error": null
+  },
+  "consecutiveFailures": 0
+}
