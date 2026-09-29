@@ -1,0 +1,232 @@
+{
+  "url": "https://stats.hhk.my.id/",
+  "name": "Stats",
+  "group": "services",
+  "groupName": "Services",
+  "timestamp": 1790663449958,
+  "date": "2026-09-29T06:30:49.958Z",
+  "runId": "2026-09-29T06-29-59-693Z",
+  "formFactor": "mobile",
+  "requestedRuns": 1,
+  "completedRuns": 1,
+  "durationMs": 9677,
+  "error": null,
+  "variance": null,
+  "lab": {
+    "requestedUrl": "https://stats.hhk.my.id/",
+    "finalUrl": "https://stats.hhk.my.id/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 92,
+      "accessibility": 98,
+      "best-practices": 100,
+      "seo": 91,
+      "agentic-browsing": 86
+    },
+    "timings": {
+      "fcp": 1093,
+      "lcp": 1629,
+      "si": 1093,
+      "tbt": 51,
+      "tti": 1645,
+      "cls": 0.166,
+      "ttfb": 642,
+      "maxPotentialFid": 116,
+      "serverResponseTime": 53,
+      "networkRtt": 6.6,
+      "networkServerLatency": 123.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 97.8,
+      "elementRenderDelay": 149.1
+    },
+    "weight": {
+      "total": 151762,
+      "requests": 30,
+      "mainDocument": 2495,
+      "byType": {
+        "total": {
+          "bytes": 151762,
+          "requests": 30
+        },
+        "image": {
+          "bytes": 77236,
+          "requests": 8
+        },
+        "script": {
+          "bytes": 38854,
+          "requests": 4
+        },
+        "other": {
+          "bytes": 17799,
+          "requests": 11
+        },
+        "stylesheet": {
+          "bytes": 15378,
+          "requests": 6
+        },
+        "document": {
+          "bytes": 2495,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 91083,
+          "requests": 17
+        }
+      },
+      "scripts": 4,
+      "stylesheets": 6,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 91083,
+      "mainThreadMs": 0,
+      "top": [
+        {
+          "entity": "GitHub",
+          "bytes": 91083,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 77236,
+            "other": 13847
+          },
+          "typedBytes": 91083
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 686.6,
+      "byGroup": {
+        "other": 308.9,
+        "scriptEvaluation": 171.3,
+        "styleLayout": 133.2,
+        "paintCompositeRender": 50.8,
+        "parseHTML": 16.6,
+        "scriptParseCompile": 5.8
+      },
+      "bootupMs": 147.7,
+      "longTasks": 1,
+      "longestTaskMs": 116
+    },
+    "dom": {
+      "elements": 314,
+      "depth": 8,
+      "maxChildren": 52
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 11161,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 5,
+      "poorlyCachedBytes": 123730.49999999999,
+      "poorlyCachedCount": 18
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 20,
+      "failingNodes": 1,
+      "failing": [
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 19,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 1,
+      "applicableCount": 8,
+      "failing": [
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": 1,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 5
+    },
+    "environment": {
+      "lighthouseVersion": "13.4.1",
+      "benchmarkIndex": 2468,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-09-29T06:30:51.257Z",
+      "runtimeMs": 7260.3
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "github",
+      "name": "GitHub Pages",
+      "icon": "Github",
+      "source": "x-github-request-id"
+    },
+    "headers": {
+      "server": "GitHub.com",
+      "via": "1.1 varnish",
+      "x-fastly-request-id": "48735b41a00e17b806f22b25079962c63455b5c9",
+      "x-github-request-id": "6604:29A5C8:553EAC:6BB776:6ABB5B1A",
+      "x-served-by": "cache-iad-kiad7000104-IAD"
+    },
+    "violations": 1,
+    "passes": 643,
+    "incomplete": 20,
+    "violationRules": 1,
+    "version": "4.13.0",
+    "top": [
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one"
+      }
+    ],
+    "error": null
+  },
+  "consecutiveFailures": 0
+}
