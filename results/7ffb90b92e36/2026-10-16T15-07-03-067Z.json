@@ -1,0 +1,20 @@
+{
+  "url": "https://stats.hhk.my.id/",
+  "name": "Stats",
+  "group": "services",
+  "groupName": "Services",
+  "timestamp": 1792163223067,
+  "date": "2026-10-16T15:07:03.067Z",
+  "runId": "2026-10-16T15-06-13-381Z",
+  "formFactor": "mobile",
+  "requestedRuns": 1,
+  "completedRuns": 0,
+  "durationMs": 46906,
+  "error": "FAILED_DOCUMENT_REQUEST: Lighthouse was unable to reliably load the page you requested. Make sure you are testing the correct URL and that the server is properly responding to all requests. (Details: net::ERR_ABORTED)",
+  "errors": [
+    "FAILED_DOCUMENT_REQUEST: Lighthouse was unable to reliably load the page you requested. Make sure you are testing the correct URL and that the server is properly responding to all requests. (Details: net::ERR_ABORTED)"
+  ],
+  "field": null,
+  "axe": null,
+  "consecutiveFailures": 1
+}
