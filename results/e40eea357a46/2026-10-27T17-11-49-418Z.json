@@ -1,0 +1,211 @@
+{
+  "url": "https://hhk.my.id/shop",
+  "name": "Shop",
+  "group": "pages",
+  "groupName": "Pages",
+  "timestamp": 1793121109418,
+  "date": "2026-10-27T17:11:49.418Z",
+  "runId": "2026-10-27T17-11-37-335Z",
+  "formFactor": "mobile",
+  "requestedRuns": 1,
+  "completedRuns": 1,
+  "durationMs": 9841,
+  "error": null,
+  "variance": null,
+  "lab": {
+    "requestedUrl": "https://hhk.my.id/shop",
+    "finalUrl": "https://hhk.my.id/shop/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 98,
+      "accessibility": 95,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1451,
+      "lcp": 2334,
+      "si": 1451,
+      "tbt": 38,
+      "tti": 2336,
+      "cls": 0,
+      "ttfb": 484,
+      "maxPotentialFid": 88,
+      "serverResponseTime": 127,
+      "networkRtt": 0,
+      "networkServerLatency": 33.6
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 181,
+      "elementRenderDelay": 151.7
+    },
+    "weight": {
+      "total": 155642,
+      "requests": 9,
+      "mainDocument": 25222,
+      "byType": {
+        "total": {
+          "bytes": 152613,
+          "requests": 8
+        },
+        "font": {
+          "bytes": 77833,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 29699,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 25222,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 14223,
+          "requests": 1
+        },
+        "image": {
+          "bytes": 3482,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 2154,
+          "requests": 3
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 0,
+          "requests": 0
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 1,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 0,
+      "bytes": 0,
+      "mainThreadMs": 0,
+      "top": []
+    },
+    "mainThread": {
+      "total": 447.3,
+      "byGroup": {
+        "other": 179.8,
+        "styleLayout": 157.8,
+        "paintCompositeRender": 45.2,
+        "scriptEvaluation": 35,
+        "parseHTML": 23.3,
+        "scriptParseCompile": 6.1
+      },
+      "bootupMs": 17.1,
+      "longTasks": 2,
+      "longestTaskMs": 88
+    },
+    "dom": {
+      "elements": 833,
+      "depth": 13,
+      "maxChildren": 16
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 328,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 1,
+      "applicableCount": 22,
+      "failingNodes": 5,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 5
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 17,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 783.6,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 33
+    },
+    "environment": {
+      "lighthouseVersion": "13.4.1",
+      "benchmarkIndex": 2471,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-10-27T17:11:50.754Z",
+      "runtimeMs": 7142
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a51352a8983c14cc-SJC",
+      "server": "cloudflare"
+    },
+    "violations": 5,
+    "passes": 1198,
+    "incomplete": 52,
+    "violationRules": 1,
+    "version": "4.13.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 5,
+        "help": "Elements must meet minimum color contrast ratio thresholds"
+      }
+    ],
+    "error": null
+  },
+  "consecutiveFailures": 0
+}
