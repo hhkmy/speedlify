@@ -1,0 +1,288 @@
+{
+  "url": "https://channelenth.my.id/",
+  "name": "Channel Enth",
+  "group": "services",
+  "groupName": "Services",
+  "timestamp": 1795232499232,
+  "date": "2026-11-21T03:41:39.232Z",
+  "runId": "2026-11-21T03-41-17-506Z",
+  "formFactor": "mobile",
+  "requestedRuns": 1,
+  "completedRuns": 1,
+  "durationMs": 18683,
+  "error": null,
+  "variance": null,
+  "lab": {
+    "requestedUrl": "https://channelenth.my.id/",
+    "finalUrl": "https://channelenth.my.id/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 67,
+      "accessibility": 96,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 96
+    },
+    "timings": {
+      "fcp": 1797,
+      "lcp": 3511,
+      "si": 2356,
+      "tbt": 846,
+      "tti": 10267,
+      "cls": 0.104,
+      "ttfb": 521,
+      "maxPotentialFid": 601,
+      "serverResponseTime": 71,
+      "networkRtt": 17.5,
+      "networkServerLatency": 74.2
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 116.3,
+      "elementRenderDelay": 177.2
+    },
+    "weight": {
+      "total": 1571633,
+      "requests": 39,
+      "mainDocument": 16834,
+      "byType": {
+        "total": {
+          "bytes": 1496468,
+          "requests": 38
+        },
+        "script": {
+          "bytes": 893355,
+          "requests": 11
+        },
+        "image": {
+          "bytes": 420094,
+          "requests": 13
+        },
+        "font": {
+          "bytes": 77844,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 46285,
+          "requests": 7
+        },
+        "stylesheet": {
+          "bytes": 31090,
+          "requests": 1
+        },
+        "document": {
+          "bytes": 27800,
+          "requests": 5
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 601420,
+          "requests": 18
+        }
+      },
+      "scripts": 11,
+      "stylesheets": 1,
+      "fonts": 1
+    },
+    "thirdParty": {
+      "count": 6,
+      "bytes": 565660,
+      "mainThreadMs": 108.6,
+      "top": [
+        {
+          "entity": "Google Tag Manager",
+          "bytes": 302422,
+          "mainThreadMs": 54.6,
+          "byType": {
+            "script": 302422
+          },
+          "typedBytes": 302422
+        },
+        {
+          "entity": "Google/Doubleclick Ads",
+          "bytes": 227747,
+          "mainThreadMs": 40.1,
+          "byType": {
+            "script": 227747
+          },
+          "typedBytes": 227747
+        },
+        {
+          "entity": "adtrafficquality.google",
+          "bytes": 22240,
+          "mainThreadMs": 6.2,
+          "byType": {
+            "script": 8390,
+            "other": 13833,
+            "image": 17
+          },
+          "typedBytes": 22240
+        },
+        {
+          "entity": "Cloudflare",
+          "bytes": 10478,
+          "mainThreadMs": 7.7,
+          "byType": {
+            "script": 10478
+          },
+          "typedBytes": 10478
+        },
+        {
+          "entity": "flagcdn.com",
+          "bytes": 2214,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 2214
+          },
+          "typedBytes": 2214
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 3422.5,
+      "byGroup": {
+        "other": 1521.7,
+        "scriptEvaluation": 1273.3,
+        "styleLayout": 302.5,
+        "scriptParseCompile": 223.1,
+        "paintCompositeRender": 58.9,
+        "parseHTML": 24.2,
+        "garbageCollection": 18.7
+      },
+      "bootupMs": 1456.9,
+      "longTasks": 13,
+      "longestTaskMs": 601
+    },
+    "dom": {
+      "elements": 653,
+      "depth": 12,
+      "maxChildren": 10
+    },
+    "waste": {
+      "unusedJsBytes": 537451,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 10603,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 394,
+      "renderBlockingCount": 1,
+      "poorlyCachedBytes": 135152.31340782123,
+      "poorlyCachedCount": 10
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 28,
+      "failingNodes": 8,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 6
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "weight": 0,
+          "nodes": 2
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 17,
+      "failing": [
+        {
+          "id": "valid-source-maps",
+          "title": "Missing source maps for large first-party JavaScript",
+          "weight": 0,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 10,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 42
+    },
+    "environment": {
+      "lighthouseVersion": "13.4.1",
+      "benchmarkIndex": 3015,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-21T03:41:40.473Z",
+      "runtimeMs": 15335.5
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "hugo",
+      "name": "Hugo",
+      "icon": "Hugo",
+      "version": "0.166.0",
+      "source": "meta",
+      "raw": "Hugo 0.166.0"
+    },
+    "probe": {
+      "metas": [
+        "Hugo 0.166.0"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "cloudflare",
+      "name": "Cloudflare",
+      "icon": "Cloudflare",
+      "source": "server"
+    },
+    "headers": {
+      "cf-ray": "a5dcae77dc19a5f0-LAX",
+      "server": "cloudflare"
+    },
+    "violations": 8,
+    "passes": 973,
+    "incomplete": 32,
+    "violationRules": 2,
+    "version": "4.13.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 6,
+        "help": "Elements must meet minimum color contrast ratio thresholds"
+      },
+      {
+        "id": "image-redundant-alt",
+        "impact": "minor",
+        "nodes": 2,
+        "help": "Alternative text of images should not be repeated as text"
+      }
+    ],
+    "error": null
+  },
+  "consecutiveFailures": 0
+}
