@@ -1,0 +1,222 @@
+{
+  "url": "https://speedlify.hhk.my.id/",
+  "name": "Speedlify",
+  "group": "services",
+  "groupName": "Services",
+  "timestamp": 1795575210456,
+  "date": "2026-11-25T02:53:30.456Z",
+  "runId": "2026-11-25T02-53-25-910Z",
+  "formFactor": "mobile",
+  "requestedRuns": 1,
+  "completedRuns": 1,
+  "durationMs": 11662,
+  "error": null,
+  "variance": null,
+  "lab": {
+    "requestedUrl": "https://speedlify.hhk.my.id/",
+    "finalUrl": "https://speedlify.hhk.my.id/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 94,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 1474,
+      "lcp": 2059,
+      "si": 1731,
+      "tbt": 253,
+      "tti": 2064,
+      "cls": 0,
+      "ttfb": 684,
+      "maxPotentialFid": 204,
+      "serverResponseTime": 299,
+      "networkRtt": 37.4,
+      "networkServerLatency": 417.3
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 462.9,
+      "resourceLoadDelay": 206.1,
+      "resourceLoadDuration": 383.3,
+      "elementRenderDelay": 29.4
+    },
+    "weight": {
+      "total": 82460,
+      "requests": 8,
+      "mainDocument": 29214,
+      "byType": {
+        "total": {
+          "bytes": 82460,
+          "requests": 7
+        },
+        "image": {
+          "bytes": 49780,
+          "requests": 4
+        },
+        "document": {
+          "bytes": 29214,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 2796,
+          "requests": 1
+        },
+        "other": {
+          "bytes": 670,
+          "requests": 1
+        },
+        "stylesheet": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "font": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 5162,
+          "requests": 3
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 0,
+      "fonts": 0
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 5162,
+      "mainThreadMs": 0,
+      "top": [
+        {
+          "entity": "11ty.dev",
+          "bytes": 5162,
+          "mainThreadMs": 0,
+          "byType": {
+            "image": 5162
+          },
+          "typedBytes": 5162
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 1500.3,
+      "byGroup": {
+        "styleLayout": 549.7,
+        "other": 530.5,
+        "paintCompositeRender": 161,
+        "scriptEvaluation": 157.5,
+        "parseHTML": 98.2,
+        "scriptParseCompile": 3.5
+      },
+      "bootupMs": 160.2,
+      "longTasks": 6,
+      "longestTaskMs": 204
+    },
+    "dom": {
+      "elements": 758,
+      "depth": 12,
+      "maxChildren": 14
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 0,
+      "poorlyCachedBytes": 4186.8,
+      "poorlyCachedCount": 3
+    },
+    "accessibility": {
+      "failingCount": 0,
+      "applicableCount": 30,
+      "failingNodes": 0,
+      "failing": []
+    },
+    "bestPractices": {
+      "failingCount": 0,
+      "applicableCount": 17,
+      "failing": []
+    },
+    "seo": {
+      "failingCount": 0,
+      "applicableCount": 9,
+      "failing": []
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": null,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h3",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 0,
+      "baselineLimitedFeatures": 33
+    },
+    "environment": {
+      "lighthouseVersion": "13.4.1",
+      "benchmarkIndex": 3162,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-25T02:53:33.463Z",
+      "runtimeMs": 9330.6
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "build-awesome",
+      "name": "Build Awesome",
+      "icon": "BuildAwesome",
+      "version": "4.0.0",
+      "source": "meta",
+      "raw": "Eleventy (Build Awesome) v4.0.0"
+    },
+    "probe": {
+      "metas": [
+        "Eleventy (Build Awesome) v4.0.0"
+      ],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "github",
+      "name": "GitHub Pages",
+      "icon": "Github",
+      "source": "x-github-request-id"
+    },
+    "headers": {
+      "cf-ray": "a5fd5d1e598c7ed7-DFW",
+      "server": "cloudflare",
+      "via": "1.1 varnish",
+      "x-fastly-request-id": "ffbf416b9be89e38f336f4379b9404248d12269b",
+      "x-github-request-id": "6EFA:E2D3A:160438:18E82E:6B064DAD",
+      "x-served-by": "cache-dfw-kdfw8210061-DFW"
+    },
+    "violations": 0,
+    "passes": 1631,
+    "incomplete": 37,
+    "violationRules": 0,
+    "version": "4.13.0",
+    "top": [],
+    "error": null
+  },
+  "consecutiveFailures": 0
+}
